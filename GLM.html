@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f172a, #1e293b);
+      color: #f1f5f9;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover no-repeat;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #38bdf8;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: rgba(0,0,0,0.8);
+      padding: 12px;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: #f1f5f9;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #38bdf8;
+    }
+    .card {
+      background: rgba(30,41,59,0.9);
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #0ea5e9;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: black;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>GLM Computer Class</h1>
+  <p>Master Technology. Shape Your Future.</p>
+  <a href="#courses" class="btn">Explore Courses</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#contact">Contact</a>
+  <a href="https://www.google.com" target="_blank">Resources</a>
+</nav>
+
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Students learning">
+    <p>GLM Computer Class helps students learn modern digital skills including coding, design, and real-world tech applications. Our mission is to prepare you for the future.<br> I started my computer class in 2022 with a simple goal—to share my passion for technology. What began as helping a few students quickly grew into a structured class. Today, it’s a place where learners build skills, confidence, and creativity in a supportive and inspiring environment.</p>
+    <a href="https://en.wikipedia.org/wiki/Computer" target="_blank" class="btn">Learn More</a>
+  </div>
+</section>
+
+<section id="courses" class="section">
+  <h2>Our Courses</h2>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f" alt="Basic skills">
+    <h3>Computer Skills</h3>
+    <p>Basic level covers computer fundamentals, typing, file management, and essential software like Word and PowerPoint. <br>Intermediate level focuses on spreadsheets, presentations, internet skills, and basic troubleshooting.<br> Advanced level teaches programming, graphic design, networking concepts, and real-world projects, helping students develop professional skills and confidence to solve complex technical problems independently.</p>
+    <a href="https://www.microsoft.com" target="_blank" class="btn">View Details</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Web development">
+    <h3>Web Development</h3>
+    <p>Our web development course teaches how to build modern, responsive websites from scratch. Students learn HTML, CSS, and JavaScript, then progress to frameworks and real-world projects. The course also covers UI design, basic backend concepts, and deployment, helping learners create functional, attractive websites and gain practical skills for freelancing or future tech careers.</p>
+    <a href="https://developer.mozilla.org" target="_blank" class="btn">Start Learning</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Programming">
+    <h3>Programming</h3>
+    <p>Our programming course introduces students to coding fundamentals, including logic, problem-solving, and algorithms. Students learn languages such as Python and Java, starting with basics and progressing to real-world applications. The course emphasizes hands-on practice, building projects, and developing efficient thinking skills, preparing learners for advanced studies, software development, and future careers in technology.</p>
+    <a href="https://www.python.org" target="_blank" class="btn">Explore Python</a>
+  </div>
+
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="Contact">
+    <p>Email: glm.com</p>
+    <p>Phone: +959 785090169</p>
+    <a href="mailto:glmclass@example.com" class="btn">Email Us</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 GLM Computer Class | <a href="https://facebook.com" target="_blank" style="color:#38bdf8;">Facebook</a></p>
+</footer>
+
+</body>
+</html>
